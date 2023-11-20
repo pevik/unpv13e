@@ -1,3 +1,5 @@
+#ifndef PING_H
+#define PING_H
 #include	"unp.h"
 #include	<netinet/in_systm.h>
 #include	<netinet/ip.h>
@@ -41,3 +43,5 @@ struct proto {
 #include	<netinet/icmp6.h>
 
 #endif
+
+#endif /* PING_H */
